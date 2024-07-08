@@ -1,0 +1,23 @@
+{
+    "name": "Booking Estate",
+    "description": "Adding statistic for estate from Booking",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "256": "favicon.png"
+    },
+    "action": {
+    },
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://estatemarket.io/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
